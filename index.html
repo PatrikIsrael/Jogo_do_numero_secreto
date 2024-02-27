@@ -25,15 +25,14 @@
                 <input type="number" min="1" max="10" class="container__input">
                 <div class="chute container__botoes">
                     <button onclick="verificarChute()" class="container__botao">Chutar</button>
-                    <button onclick="" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
                 </div>
             </div>
-            <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
+            <img id="imagemFeliz" src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
+            <img id="gifErrou" src="https://i.kym-cdn.com/photos/images/original/001/372/654/fe5.gif" alt="Imagem quando errar o número" style="display: none;" />
+            <img id="gifAcertou" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemVjbzR3Ymc4NmluZnF5MXh3MXg4cGF6YXhrZWdyaHRqOHR3MjBtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5VB19KjB3OpXy305C5/giphy.gif" alt="Imagem feliz quando acertar o número" style="display: none;" />
         </div>
     </div>
-
-
-
 
     <script src="app.js" defer></script>
 </body>
