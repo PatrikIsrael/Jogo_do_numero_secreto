@@ -6,7 +6,7 @@ Bem-vindo ao Jogo de Adivinhação! Este é um projeto emocionante desenvolvido 
 
 1. Abra o arquivo `index.html` no seu navegador.
 2. Você verá uma interface amigável com a caixa de entrada para inserir sua suposição.
-3. Digite um número entre 0 e 100.
+3. Digite um número entre 0 e 10.
 4. Clique no botão "Adivinhar" para verificar sua resposta.
 5. Receba dicas sobre se o número é muito alto, muito baixo ou correto.
 6. Continue adivinhando até encontrar o número secreto!
