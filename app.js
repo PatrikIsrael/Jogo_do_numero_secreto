@@ -6,11 +6,11 @@ let tentativas = 1;
 function exibirTexto(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    responsiveVoice.speak(texto,'US English Female', {rate: 1.1});
 }
 function mensagemInicial() {
     exibirTexto('h1', 'Jogo do número secreto');
     exibirTexto('p','Escolha um número entre 1 e 10');
-    
 }
     mensagemInicial();
 
